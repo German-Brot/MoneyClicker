@@ -402,4 +402,3 @@ if st.session_state.modus_name == "Endlos":
             st.session_state.anzahlFirmen += 1
             st.session_state.firmaKosten = int(st.session_state.firmaKosten * 1.6)
             st.rerun()
-            print("More updates and changes are on the way. An english Version is comming soon.")
